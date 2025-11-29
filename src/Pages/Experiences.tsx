@@ -32,7 +32,7 @@ const Experiences = () => {
 
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto gap-8 w-full">
         {/* Crafting Section */}
-        <div className="flex-1 h-64 md:h-72 bg-linear-to-r from-[#0C2B4E] to-gray-900 rounded-2xl relative overflow-hidden border border-gray-600 p-6">
+        <div className="lg:flex-1 h-72 bg-linear-to-r from-[#0C2B4E] to-gray-900 rounded-2xl relative overflow-hidden border border-gray-600 p-6">
           <div
             ref={craftingContainer}
             className="relative flex items-center justify-center h-full w-full overflow-hidden"

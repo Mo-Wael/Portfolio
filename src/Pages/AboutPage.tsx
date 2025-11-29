@@ -97,7 +97,7 @@ const AboutPage = () => {
           <div className="flex flex-col sm:flex-row gap-6 w-full mt-2">
             <ShimmerButton
               className="shadow-2xl flex-1 fs-xl"
-              onClick={() => window.open("/cv.pdf", "_blank")}
+              onClick={() => window.open("/Mohamed_Wael_CV.pdf", "_blank")}
             >
               View CV
             </ShimmerButton>
