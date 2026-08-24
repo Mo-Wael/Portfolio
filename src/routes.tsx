@@ -2,6 +2,7 @@ import Contact from "./Pages/Contact";
 import Education from "./Pages/Education";
 import Experiences from "./Pages/Experiences";
 import FirstPage from "./Pages/FirstPage";
+import NotFound from "./Pages/NotFound";
 import ProjectsPage from "./Pages/ProjectsPage";
 
 export const routers = [
@@ -9,5 +10,6 @@ export const routers = [
     {path: "/Education", component: Education},
     {path: "/Experiences", component: Experiences},
     {path: "/Projects", component: ProjectsPage},
-    {path: "/Contact", component: Contact}
+    {path: "/Contact", component: Contact},
+    {path: "*", component: NotFound}
 ]
